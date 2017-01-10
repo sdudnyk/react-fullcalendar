@@ -1,0 +1,31 @@
+{
+  "name": "react-fullcalendar",
+  "version": "1.0.0",
+  "description": "ReactJS wrapper for FullCalendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "calendar",
+    "agenda",
+    "fullcalendar",
+    "events"
+  ],
+  "author": "Alexander NeonXP Kiryukhin",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "fullcalendar": "^3.1.0",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
+}
